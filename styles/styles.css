@@ -1,0 +1,233 @@
+/************* Neeraj: 
+
+/************* site defaults *************/
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+.flex {
+    display: flex;
+}
+
+/************* site-wide text styling *************/
+h1 {
+    font-size: 48px;
+    text-align: center;
+    line-height: 48px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    background-color: #E5AF42;
+    text-align: center;
+    line-height: 3;
+    border: 1px solid #000;
+}
+
+.fake-button:hover,
+.blue-hover:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/************* header/footer styling *************/
+header,
+footer {
+    background-color: #E5AF42;
+}
+
+header {
+    height: 150px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+footer {
+    height: 80px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+   
+}
+/************* index page *************/
+
+.index-page {
+    display: flex;
+}
+
+.index-text {
+    flex: 1;
+}
+
+.index-image {
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.index-page h2 {
+    line-height: 36px;
+}
+
+.index-page p {
+    margin-bottom: 12px;
+}
+
+.fake-button {
+    width: 250px;
+}
+
+
+.flex > .fake-button {
+    margin: 0 auto;
+    
+}
+
+.large-text{
+    font: size 24px ;
+}
+/************* bookings page *************/
+
+.booking-page {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+}
+
+.booking-page p {
+    font-size: 18px;
+}
+
+.day-selector {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.booking-page ul {
+    list-style: none;
+    padding: 0;
+   text-align: center;
+    
+}
+
+.booking-page li {
+    width: 60px;
+    border: 1px solid #000;
+    margin-right: 20px;
+    display: inline-block; /* Display list items in a line */
+    margin: 0 25px;
+    
+    
+}
+
+.small-button {
+    border: 1px solid #000;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.fake-button {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.clicked {
+    background-color: #E5AF42;
+}
+
+/************* contact page *************/
+/* Contact page styling */
+
+
+#contact-page {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-page form {
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width as needed */
+
+}
+
+#contact-page .flex {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   line-height: 24px;
+   text-align: right;
+    margin: 0 auto; /* Center the columns */
+}
+
+#contact-page label {
+    width: 150px;
+    text-align: left;
+    margin: 0;
+}
+
+#contact-page textarea  {
+    height: 150px;
+    
+}
+
+#contact-page button {
+    width: 300px;
+    margin-bottom: 12px;
+    
+}
+form input,
+form textarea,
+form button {
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 16px;
+    border: 1px solid #000;
+    margin-bottom: 24px;
+}
